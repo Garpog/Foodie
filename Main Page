@@ -6,8 +6,8 @@
   <title>Foodie</title>
 </head>
 <body>
-  <h1>"Foodie"</h1>
-  <div <!--class="pantry"-->>
+  <h1 class="title">"Foodie"</h1>
+  <div class="pantry">
     <div>
     </div>
     <div>
@@ -15,7 +15,7 @@
     <div>
     </div>
   </div>
-  <div <!--class="fridge"-->>
+  <div <class="fridge">
     
   </div>
 </body>
