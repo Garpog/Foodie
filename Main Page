@@ -3,3 +3,17 @@
 <head>
   <title>Foodie</title>
 </head>
+<body>
+  <h1>"Foodie"</h1>
+  <div <!--class="pantry"-->>
+    <div>
+    </div>
+    <div>
+    </div>
+    <div>
+    </div>
+  </div>
+  <div>
+    
+  </div>
+</body>
