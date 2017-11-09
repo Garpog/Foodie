@@ -1,0 +1,45 @@
+.Food {
+	border: 3px solid;
+	border-color: black;
+	text-align: center;
+	column-count: 5;
+	display: flex;
+	justify-content: space-around;
+}
+
+.Grains {
+	border: 3px solid;
+	border-color: #806b26;
+	width
+}
+
+.VegetablesFruits{
+	border: 3px solid;
+	border-color: #39c729;
+}
+
+.Protein {
+	border: 3px solid;
+	border-color: #e41616;
+}
+
+.Dairy {
+	border: 3px solid;
+	border-color: #13c8e8;
+}
+
+.Other {
+	border: 3px solid;
+	border-color: #ee6fd8;
+}
+
+.title {
+	border: 1px solid;
+	border-color: black;
+	text-align: center;
+}
+
+.categories {
+	width: 140px;
+	height: 500px;
+}
