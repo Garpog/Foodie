@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css>
+  <title>Foodie</title>
+</head>
+<body>
+  <h1 class="title">"Foodie"</h1>
+  <div class="pantry">
+    <div>
+    </div>
+    <div>
+    </div>
+    <div>
+    </div>
+  </div>
+  <div <class="fridge">
+    
+  </div>
+</body>
