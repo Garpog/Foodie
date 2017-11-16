@@ -10,27 +10,31 @@
 .Grains {
 	border: 3px solid;
 	border-color: #806b26;
-	width
+	background-color: #F4B06A;
 }
 
 .VegetablesFruits{
 	border: 3px solid;
 	border-color: #39c729;
+	background-color: #62D27C;
 }
 
 .Protein {
 	border: 3px solid;
 	border-color: #e41616;
+	background-color: #DE6464;
 }
 
 .Dairy {
 	border: 3px solid;
 	border-color: #13c8e8;
+	background-color: #A2C0F2;
 }
 
 .Other {
 	border: 3px solid;
 	border-color: #ee6fd8;
+	background-color: #ECB4E2;
 }
 
 .title {
