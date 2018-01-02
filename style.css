@@ -1,5 +1,45 @@
+header h1 {
+    font-family:"Berkshire Swash";
+    color: white;
+}
+
+header{
+    background-color: rgb(106,168,79);
+}
+
+#fridge-tab {
+    background-color: rgb(106,168,79);
+}
+
+#recipes-tab {
+    background-color: #b6d7a8ff;
+}
+
+#ingredients-tab {
+    background-color: #fff2ccff;
+    color: grey;
+}
+
 .Food {
-	border: 3px solid;
+    color: white;
+}
+
+.jumbotron {
+    background-color: #fdfff6ff;
+}
+
+.card-deck {
+    margin:2em;
+    background-color: white;
+    display: flex;
+}
+
+.card-deck h5 {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.container {
 	border-color: black;
 	text-align: center;
 	column-count: 5;
@@ -7,38 +47,37 @@
 	justify-content: space-around;
 }
 
-.Grains {
-	border: 3px solid;
-	border-color: #806b26;
-	background-color: #F4B06A;
+.card-deck {
+    background-color: #fff2ccff;
+    color: white;
 }
 
-.VegetablesFruits{
-	border: 3px solid;
-	border-color: #39c729;
+h5.vegetables-title{
 	background-color: #62D27C;
 }
 
-.Protein {
-	border: 3px solid;
-	border-color: #e41616;
+h5.fruits-title{
+	background-color: #eeb6e3ff;
+}
+
+h5.proteins-title {
 	background-color: #DE6464;
 }
 
-.Dairy {
-	border: 3px solid;
-	border-color: #13c8e8;
+h5.grains-title {
+	background-color: #F4B06A;
+}
+
+h5.dairies-title {
 	background-color: #A2C0F2;
 }
 
-.Other {
-	border: 3px solid;
-	border-color: #ee6fd8;
-	background-color: #ECB4E2;
+h5.others-title {
+	background-color: whitesmoke;
+    color: black;
 }
 
 .title {
-	border: 1px solid;
 	border-color: black;
 	text-align: center;
 }
@@ -46,4 +85,15 @@
 .categories {
 	width: 140px;
 	height: 500px;
+}
+
+h1.mainTitle {
+    background-color: rgb(106,168,79);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    font-family: fantasy;
+    font-size: 70px;
+    font-family: 'Berkshire Swash';
 }
