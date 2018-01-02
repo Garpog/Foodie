@@ -1,48 +1,87 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <title>Foodie</title>
+    <title>Foodie</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Berkshire Swash:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
 </head>
-<link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
-<style>
-h1.mainTitle {
-    background-color: rgb(106,168,79);
-    color: white;
-    padding: 20px;
-    text-align: center;
-    position: sticky;
-    font-family: fantasy;
-    font-size: 70px;
-    font-family: 'Berkshire Swash';
-}
-
-</style>
-
-
-
-<h1 class="mainTitle">Foodie</h1>
 
 <body>
-  <div class="Food">
-    <div class="Vegetables categories">
+    <header class="container">
+        <div class="row">
+            <h1 class="col-xs-12 col-md-12 col-lg-12">Foodie</h1>
+        </div>
+    </header>
+    <section class="jumbotron">        
+        <dir class="col-xs-3-left col-md-3-left col-lg-3-left">
+            <ul class="nav nav-tabs" id="tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="Food" id="fridge-tab" data-toggle="tab" href="#fridge" role="tab" aria-controls="vegetables" aria-selected="true">Fridge</a>
+                </li>
+                <li class="nav-item">
+                    <a class="Food" id="recipes-tab" data-toggle="tab" href="#recipes" role="tab" aria-controls="fruits" aria-selected="true">Find Recipes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="Food" id="ingredients-tab" data-toggle="tab" href="#ingredients" role="tab" aria-controls="grains" aria-selected="true">Find Ingredients</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade" id="fridge-tab" role="tabpanel"   aria-labelledby="fridge-tab"></div>
+                <div class="tab-pane fade show active" id="recipes-tab" role="tabpanel" aria-labelledby="recipes-tab"></div>
+                <div class="tab-pane fade" id="ingredients-tab" role="tabpanel"   aria-labelledby="ingredients-tab"></div>
+            </div>
+        </dir>
 
-    </div>
-    <div class="Fruits categories">
-
-    </div>
-    <div class="Grain categories">
-
-    </div>
-    <div class="Diary categories">
-
-    </div>
-    <div class="Protein categories">
-
-    </div>
-    <div class="Other categories">
-    </div>
-  </div>
+        <div class="card-deck">
+            <div class="card col-xs-2 col-md-2 col-lg-2">
+                <div class="card-body">
+                  <h5 class="vegetables-title">Vegetables</h5>
+                  <p class="card-text"></p>
+                  <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+                
+            </div>
+            <div class="card col-xs-2 col-md-2 col-lg-2">
+                <div class="card-body">
+                    <h5 class="fruits-title">Fruits</h5>
+                    <p class="card-text"></p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+            </div>
+            <div class="card col-xs-2 col-md-2 col-lg-2">
+                <div class="card-body">
+                    <h5 class="grains-title">Grains</h5>
+                    <p class="card-text"></p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+            </div>
+            <div class="card col-xs-2 col-md-2 col-lg-2">
+                <div class="card-body">
+                    <h5 class="dairies-title">Dairies</h5>
+                    <p class="card-text"></p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+            </div>
+            <div class="card col-xs-2 col-md-2 col-lg-2">
+                <div class="card-body">
+                    <h5 class="proteins-title">Proteins</h5>
+                    <p class="card-text"></p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+            </div>
+            <div class="card col-xs-2 col-md-2 col-lg-2">
+                <div class="card-body">
+                    <h5 class="others-title">Others</h5>
+                    <p class="card-text"></p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
 </body>
+
+<footer>
+</footer>
