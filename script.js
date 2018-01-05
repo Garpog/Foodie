@@ -1,3 +1,4 @@
+"use strict";
 function displayFridge() {
   $("#fridge").css("display", "flex");
   $("#ingredients").css("display", "none");
