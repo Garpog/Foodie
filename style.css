@@ -63,6 +63,18 @@ header{
     color: grey;
 }
 
+#fridge {
+  display: block;
+}
+
+#recipes {
+  display: none;
+}
+
+#ingredients {
+  display: none;
+}
+
 .Food {
     color: white;
 }
