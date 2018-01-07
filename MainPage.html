@@ -6,6 +6,8 @@
     <link href='https://fonts.googleapis.com/css?family=Berkshire Swash:300,400,700' rel='stylesheet' type='text/css'>
     <link href="style.css" rel="stylesheet">
     <link href="normalize.css" rel="stylesheet">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>    
 </head>
 
 <body>
@@ -17,29 +19,32 @@
     <section class="jumbotron">        
         <dir class="col-xs-3-left col-md-3-left col-lg-3-left">
             <ul class="nav nav-tabs" id="tabs" role="tablist">
-                <li class="nav-item">
-                    <a class="Food" id="fridge-tab" data-toggle="tab" href="#fridge" role="tab" aria-controls="vegetables" aria-selected="true" onclick="displayFridge()">Fridge</a>
+                <li class="nav-item tabs" id="fridge-tab" onclick = "displayFridge()">
+                    <a class="tablinks" data-toggle="tab" href="#fridge" role="tab" aria-controls="vegetables" aria-selected="true" onclick="displayFridge()">Fridge</a>
                 </li>
-                <li class="nav-item">
-                    <a class="Food" id="recipes-tab" data-toggle="tab" href="#recipes" role="tab" aria-controls="fruits" aria-selected="true" onclick="displayIngr()">Find Recipes</a>
+                <li class="nav-item tabs" id="recipes-tab" onclick = "displayRecipes()">
+                    <a class="tablinks" data-toggle="tab" href="#recipes" role="tab" aria-controls="fruits" aria-selected="true" onclick="displayIngr()">Find Recipes</a>
                 </li>
-                <li class="nav-item">
-                    <a class="Food" id="ingredients-tab" data-toggle="tab" href="#ingredients" role="tab" aria-controls="grains" aria-selected="true" onclick="displayRecipes()">Find Ingredients</a>
+                <li class="nav-item tabs" id="ingredients-tab" onclick = "displayIngr()">
+                    <a class="tablinks" data-toggle="tab" href="#ingredients" role="tab" aria-controls="grains" aria-selected="true" onclick="displayRecipes()">Find Ingredients</a>
                 </li>
             </ul>
+            <!--
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade" id="fridge-tab" role="tabpanel"   aria-labelledby="fridge-tab"></div>
                 <div class="tab-pane fade show active" id="recipes-tab" role="tabpanel" aria-labelledby="recipes-tab"></div>
                 <div class="tab-pane fade" id="ingredients-tab" role="tabpanel"   aria-labelledby="ingredients-tab"></div>
             </div>
+            -->
         </dir>
-         <div class="searchBar">
-   <div class="search">
-      <input type="text" class="searchTerm" placeholder="What's in your fridge?">
+<div id = "fridge">
+    <div class="searchBar">
+        <div class="search">
+        <input type="text" class="searchTerm" placeholder="What's in your fridge?">
         <button type="submit" class="searchButton">search</button>
-     </button>
-   </div>
-</div>
+        </button>
+        </div>
+    </div>
         <div class="card-deck">
             <div class="card col-xs-3 col-md-3 col-lg-3">
                 <div class="card-body">
@@ -85,11 +90,14 @@
                 </div>
             </div>
         </div>
-        
+</div>
+<div id = "recipes">
+</div>
+<div id = "ingredients">
+</div>
     </section>
-    <script src="script.js"></script>    
 </body>
     
 <footer>
 </footer>
-</html?
+</html>
