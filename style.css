@@ -29,52 +29,65 @@ header{
 }
 
 .card-deck {
-    margin:2em;
+    margin:1em;
     background-color: white;
     display: flex;
 }
 
 .card-deck h5 {
     text-align: center;
-    font-size: 1.25em;
+    font-size: 1.75vw;
+    margin-left: 0.02em;
+    margin-right: 0.02em;
 }
 
 .container {
 	border-color: black;
 	text-align: center;
-	column-count: 5;
 	display: flex;
 	justify-content: space-around;
 }
 
 .card-deck {
-    background-color: #fff2ccff;
+    background-color: #93c47dff;
     color: white;
 }
 
 h5.vegetables-title{
 	background-color: #62D27C;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
 }
 
 h5.fruits-title{
 	background-color: #eeb6e3ff;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
 }
 
 h5.proteins-title {
 	background-color: #DE6464;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
 }
 
 h5.grains-title {
 	background-color: #F4B06A;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
 }
 
 h5.dairies-title {
 	background-color: #A2C0F2;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
 }
 
 h5.others-title {
 	background-color: whitesmoke;
     color: black;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
 }
 
 .title {
@@ -85,15 +98,4 @@ h5.others-title {
 .categories {
 	width: 140px;
 	height: 500px;
-}
-
-h1.mainTitle {
-    background-color: rgb(106,168,79);
-    color: white;
-    padding: 20px;
-    text-align: center;
-    position: sticky;
-    font-family: fantasy;
-    font-size: 70px;
-    font-family: 'Berkshire Swash';
 }
