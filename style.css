@@ -13,10 +13,21 @@ header{
   position: relative;
 }
 
-.searchTerm {
+#fridge .searchTerm {
   float: left;
   width: 100%;
   border: 3px solid rgb(106,168,79);
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+#recipes .searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #b6d7a8ff;
   padding: 5px;
   height: 36px;
   border-radius: 5px;
@@ -28,13 +39,27 @@ header{
   color: #000000;
 }
 
-.searchButton {
+#fridge .searchButton {
   position: absolute;  
   right: -50px;
   width: 80px;
   height: 36px;
   border: 1px solid #00B4CC;
   background: rgb(106,168,79);
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+#recipes .searchButton {
+  position: absolute;  
+  right: -50px;
+  width: 80px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #b6d7a8ff;
   text-align: center;
   color: #fff;
   border-radius: 5px;
