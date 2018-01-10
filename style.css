@@ -44,7 +44,7 @@ header{
 
 .searchBar{
   width: 88%;
-  position: absolute;
+  position: relative;
   top: 28%;
   left: 48%;
   transform: translate(-50%, -50%);
@@ -65,14 +65,17 @@ header{
 
 #fridge {
   display: block;
+    column-count: 1;
 }
 
 #recipes {
   display: none;
+    column-count: 1;
 }
 
 #ingredients {
   display: none;
+    column-count: 1;
 }
 
 .Food {
