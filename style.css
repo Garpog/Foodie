@@ -103,6 +103,79 @@ header{
     column-count: 1;
 }
 
+.circle-apple {
+  width: 120px;
+  height: 120px;
+  padding: 5px 11px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 60px;
+  border-style: solid;
+  background-color: white;
+  text-align: center;
+  border-width: 10px;
+  border-color: green;
+}
+
+.hover-apple:hover {
+  width: 120px;
+  height: 120px;
+  padding: 5px 11px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 60px;
+  border-style: solid;
+  background-color: #fdfff6ff;
+  text-align: center;
+  border-width: 10px;
+  border-color: #28b000;
+}
+
+
+
+.circle-veggie {
+  width: 120px;
+  height: 120px;
+  padding: 5px 11px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 60px;
+  border-style: solid;
+  background-color: white;
+  text-align: center;
+  border-width: 10px;
+  border-color: teal;
+}
+
+.circle-milk {
+  width: 120px;
+  height: 120px;
+  padding: 5px 11px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 60px;
+  border-style: solid;
+  background-color: white;
+  text-align: center;
+  border-width: 10px;
+  border-color: red;
+}
+
+.circle-apple {
+  width: 120px;
+  height: 120px;
+  padding: 5px 11px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 60px;
+  border-style: solid;
+  background-color: white;
+  text-align: center;
+  border-width: 10px;
+  border-color: green;
+}
+ 
+
 .Food {
     color: white;
 }
@@ -137,9 +210,10 @@ header{
 }
 
 h5.vegetables-title{
-	background-color: #62D27C;
-    border-top-right-radius: 0.5em;
+      border-top-right-radius: 0.5em;
     border-top-left-radius: 0.5em;
+	background-color: #62D27C;
+
 }
 
 h5.fruits-title{
