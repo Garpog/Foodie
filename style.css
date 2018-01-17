@@ -67,6 +67,10 @@ header{
   font-size: 15px;
 }
 
+#recipes .btn-group {
+    background-color: #f7f9e3ff;
+}
+
 .searchBar{
   width: 88%;
   position: relative;
