@@ -72,7 +72,6 @@ header{
 
 #recipes .btn-group {
     background-color: #f7f9e3ff;
-    margin-left: 4%;
 }
 
 .searchBar{
@@ -103,7 +102,6 @@ header{
 
 #recipes {
   display: block;
-    column-count: 1;
 }
 
 #ingredients {
