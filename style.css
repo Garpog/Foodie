@@ -34,7 +34,10 @@ header{
   outline: none;
   color: #9DBFAF;
 }
-
+#recipes .container .content {
+    display: none;
+    padding: 5px;
+}
 .searchTerm:focus{
   color: #000000;
 }
@@ -93,12 +96,12 @@ header{
 }
 
 #fridge {
-  display: block;
+  display: none;
     column-count: 1;
 }
 
 #recipes {
-  display: none;
+  display: block;
     column-count: 1;
 }
 
