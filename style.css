@@ -219,6 +219,40 @@ h5.vegetables-title{
 	background-color: #62D27C;
 
 }
+.card-deck car{
+    text-align: center;
+    font-size: 1.75vw;
+    margin-left: 0.02em;
+    margin-right: 0.02em;
+   background-color:white; 
+   color:black;
+      border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+  padding-top:10%;
+}
+car.vegetbles-body{
+
+  background-color:white; 
+  color:black;
+      border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+}
+
+car.fruits-body{
+
+  background-color:white; 
+  color:black;
+      border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+}
+
+car.grains-body{
+
+  background-color:white; 
+  color:black;
+      border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+}
 
 h5.fruits-title{
 	background-color: #eeb6e3ff;
