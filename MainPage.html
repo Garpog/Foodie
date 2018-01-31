@@ -19,52 +19,44 @@
         </header>
         <section class="jumbotron">
             <dir class="col-xs-3-left col-md-3-left col-lg-3-left">
-            <ul class="nav nav-tabs" id="tabs" role="tablist">
-                <li class="nav-item tabs" id="fridge-tab" onclick = "displayFridge()">
-                    <a class="tablinks" data-toggle="tab" href="#fridge" role="tab" aria-controls="vegetables" aria-selected="true" onclick="displayFridge()">Fridge</a>
-                </li>
-                <li class="nav-item tabs" id="recipes-tab" onclick = "displayRecipes()">
-                    <a class="tablinks" data-toggle="tab" href="#recipes" role="tab" aria-controls="fruits" aria-selected="true" onclick="displayIngr()">Find Recipes</a>
-                </li>
-                <li class="nav-item tabs" id="ingredients-tab" onclick = "displayIngr()">
-                    <a class="tablinks" data-toggle="tab" href="#ingredients" role="tab" aria-controls="grains" aria-selected="true" onclick="displayRecipes()">Find Ingredients</a>
-                </li>
-            </ul>
-            <!--
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade" id="fridge-tab" role="tabpanel"   aria-labelledby="fridge-tab"></div>
-                <div class="tab-pane fade show active" id="recipes-tab" role="tabpanel" aria-labelledby="recipes-tab"></div>
-                <div class="tab-pane fade" id="ingredients-tab" role="tabpanel"   aria-labelledby="ingredients-tab"></div>
-            </div>
-            -->
+                <ul class="nav nav-tabs" id="tabs" role="tablist">
+                    <li class="nav-item tabs" id="fridge-tab" onclick = "displayFridge()">
+                        <a class="tablinks" data-toggle="tab" href="#fridge" role="tab" aria-controls="vegetables" aria-selected="true" onclick="displayFridge()">Fridge</a>
+                    </li>
+                    <li class="nav-item tabs" id="recipes-tab" onclick = "displayRecipes()">
+                        <a class="tablinks" data-toggle="tab" href="#recipes" role="tab" aria-controls="fruits" aria-selected="true" onclick="displayIngr()">Find Recipes</a>
+                    </li>
+                    <li class="nav-item tabs" id="ingredients-tab" onclick = "displayIngr()">
+                        <a class="tablinks" data-toggle="tab" href="#ingredients" role="tab" aria-controls="grains" aria-selected="true" onclick="displayRecipes()">Find Ingredients</a>
+                    </li>
+                </ul>
             </dir>
+            
             <div id = "fridge">
                 <div class="searchBar">
                     <div class="search">
                         <input type="text" class="searchTerm" placeholder="What's in your fridge?">
                         <button type="submit" class="searchButton">search</button>
-                        </button>
                     </div>
                 </div>
                 <br>
                 <br>
                 <br>
-                <div class="circle"><center>
-                    
-                   <button class="circle-apple hover-apple">apple</button>
-                   <button class="circle-veggie">veggie</button>
-                   <button class="circle-milk">milk</button>
-                </div></center>
+                <div class="circle">
+                    <center>
+                        <button class="circle-apple hover-apple">apple</button>
+                        <button class="circle-veggie">veggie</button>
+                        <button class="circle-milk">milk</button>
+                    </center>
+                </div>
                 <div class="card-deck">
                     <div class="card col-xs-3 col-md-3 col-lg-3">
                         <div class="card-body">
                             <h5 class="vegetables-title">Vegetables</h5>
                             <car class="vegetables-body">something down here </car>
-                            
                             <p class="card-text"></p>
                             <p class="card-text"><small class="text-muted"></small></p>
                         </div>
-
                     </div>
                     <div class="card col-xs-3 col-md-3 col-lg-3">
                         <div class="card-body">
@@ -110,58 +102,57 @@
                     <div class="search">
                         <input type="text" class="searchTerm" placeholder="What would you like to make today?">
                         <button type="submit" class="searchButton">search</button>
-                        </button>
                     </div>
                 </div>
                 <br>
                 <br>
                 <br>
-                <div class="btn-group">
-                    
-                </div>
         
                 <div class="row container">
-                        <div class="btn-group col-sm-4">
-                            <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
                             Breakfast
                             </button>
-                            <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
+                        <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
                                 Lunch
                             </button>
-                            <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
+                        <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
                                 Dinner
                             </button>
-                            <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
+                        <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
                                 Dessert
                             </button>                    
                     
-                    <div class="btn-group col-sm-4">
+                    <div class="btn-group col-sm-8">
                     <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
                         5 min
-                    </button>
+                        </button>
                     <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
                         15 min
-                    </button>
+                        </button>
                     <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
                         30 min
-                    </button>
+                        </button>
                     <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
                         1 hr
                     </button>
-                </div>
+                        
                     <p>
                         <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         All Filters
                         </a>
                     </p>
-                    <div class="row">
-                        <div class="row collapse" id="collapseExample">
-                            <div class="card card-block">
-                                <button type="button" class="btn btn-primary" type="button">Soup</button>
+                        <div class="row">
+                    <div class="row collapse" id="collapseExample">
+                        <div class="card card-block">
+                            <button type="button" class="btn btn-primary" type="button">Soup</button>
                             </div>
                         </div>
                     </div>
                 </div>
+                </div>
+                    
+                
                 </center>
             </div>
             <div id = "ingredients">

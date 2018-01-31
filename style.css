@@ -34,10 +34,7 @@ header{
   outline: none;
   color: #9DBFAF;
 }
-#recipes .container .content {
-    display: none;
-    padding: 5px;
-}
+
 .searchTerm:focus{
   color: #000000;
 }
@@ -204,10 +201,12 @@ header{
 }
 
 .container {
+    overflow:auto;
 	border-color: black;
 	text-align: center;
 	display: flex;
 	justify-content: space-around;
+    width: 100%;
 }
 
 .card-deck {
