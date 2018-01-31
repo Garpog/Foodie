@@ -109,10 +109,22 @@ header{
     column-count: 1;
 }
 
-.circle-apple {
-  width: 120px;
+
+
+
+
+div.circle {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 60px;
+    height:150px;
+}
+
+div.circle a {
+width: 120px;
   height: 120px;
-  padding: 5px 11px;
+  padding: 30px 20px;
   font-size: 24px;
   line-height: 1.33;
   border-radius: 60px;
@@ -123,10 +135,10 @@ header{
   border-color: green;
 }
 
-.hover-apple:hover {
-  width: 120px;
+div.circle a:hover {
+width: 120px;
   height: 120px;
-  padding: 5px 11px;
+  padding: 30px 20px;
   font-size: 24px;
   line-height: 1.33;
   border-radius: 60px;
@@ -139,48 +151,8 @@ header{
 
 
 
-.circle-veggie {
-  width: 120px;
-  height: 120px;
-  padding: 5px 11px;
-  font-size: 24px;
-  line-height: 1.33;
-  border-radius: 60px;
-  border-style: solid;
-  background-color: white;
-  text-align: center;
-  border-width: 10px;
-  border-color: teal;
-}
 
-.circle-milk {
-  width: 120px;
-  height: 120px;
-  padding: 5px 11px;
-  font-size: 24px;
-  line-height: 1.33;
-  border-radius: 60px;
-  border-style: solid;
-  background-color: white;
-  text-align: center;
-  border-width: 10px;
-  border-color: red;
-}
 
-.circle-apple {
-  width: 120px;
-  height: 120px;
-  padding: 5px 11px;
-  font-size: 24px;
-  line-height: 1.33;
-  border-radius: 60px;
-  border-style: solid;
-  background-color: white;
-  text-align: center;
-  border-width: 10px;
-  border-color: green;
-}
- 
 
 .Food {
     color: white;
